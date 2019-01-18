@@ -12,7 +12,7 @@ before_script:
 services:
   - postgresql
 
-env: DJANGO_SETTINGS_MODULE=disquaire_projet2.settings.travis
+env: DJANGO_SETTINGS_MODULE=deployez_une_application_django.settings.travis
 
 script:
   - ./manage.py test
